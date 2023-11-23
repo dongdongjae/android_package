@@ -50,14 +50,14 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "com.github.dongdongjae"
                 artifactId = "UserPackage"
-                version = "1.0.0"
+                version = "1.0.1"
             }
 
             create<MavenPublication>("debug") {
                 from(components["debug"])
                 groupId = "com.github.dongdongjae"
                 artifactId = "UserPackage"
-                version = "1.0.0"
+                version = "1.0.1"
             }
         }
     }
